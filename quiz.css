@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rightans{
+	color: #0C0;
+}
+.wrongans{
+	color: #F00;
+}
+

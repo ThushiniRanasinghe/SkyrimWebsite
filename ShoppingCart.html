@@ -1,0 +1,103 @@
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" type="text/css" href="common.css"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> My Cart </title>
+<link rel="stylesheet" href="CSS/style.css" />  
+	<link rel="stylesheet" href="CSS/ImageTransparent.css" /> 
+	<link rel="stylesheet" type="text/css" href="CSS/style1.css">
+	<link rel="stylesheet" type="text/css" href="common.css">
+	<link rel="stylesheet" type="text/css" href="CSS/form.css">
+
+
+</head>
+
+<body>
+	&nbsp &nbsp &nbsp &nbsp <img src="images/Logo.gif" align="left"  id="transparent" width="60" height="60" >
+	<form method='GET' action='poll.php' align="right" >
+	<input type='hidden' name='day' id='day' >
+	<input type='hidden' name='hou' id='hou' >
+	<input type='hidden' name='min' id='min'>
+	<input type='hidden' name='sec' id='sec' >
+	<input type='submit' value='EXIT'align='top' style="background-color: #2BC1F2;margin-right: 50px;height:40px; width:80px;font-weight: bold;"/>
+	</form>
+	<hr>
+	<ul id="css3menu1" class="topmenu">
+		<li class="topmenu"><a href="Home.html" >HOME</a></li>
+		<li class="topmenu"><a href="Movies.php" >MOVIES</a></li>
+		<li class="toplast"><a href="ContactUs.html">CONTACT US</a></li>
+		<li class="toplast"><a href="AboutUs.html">ABOUT US</a></li>
+		<li class="toplast"><a href="Quiz.html">QUIZ</a></li>
+		<li class="topmenu"><a href="weeklypoll1.php" >WEEKLY POLL</a></li>
+		<li class="topmenu"><a href="Testimonial.php" >TESTIMONIALS</a></li>
+		<li class="topmenu"><a href="Register.html" >REGISTER</a></li>
+		<li class="topmenu"><a href="ShoppingCart.html" ><img src="Images/ShoppingCart.png"></a></li>
+		
+	</ul>
+	<hr>
+
+<table width=950 border="5" cellpadding="6" cellspacing="10" class="layout" bgcolor=#9F9F9F  align=center >
+<tr>
+	
+	<td bgcolor=white>
+	<form action="showcart.php" method="get" enctype="text/plain">
+	
+	<ul>
+	<li> First name : <input type="text" name="firstname" required> </li>
+	<li> Last name : <input type="text" name="lastname"> </li>
+	<li> E-mail : <input type="text" name="email" required> </li>
+	<li> Contact Number : <input type="text" name="contactno" required> </li>
+	<li> Address : <input type="text" name='address' required>  </li>
+	<li> City : <input type="text" name='city' required>  </li>
+	<li> State : <input type="text" name='state' required>  </li>
+	<li> Zip code : <input type="text" name='zipcode' required> </li>
+	<li> Country : <input type="text" name="country" required> </li>
+	<li>Card Number: <input type="text" name="card_number" placeholder="xxxx-xxxx-xxxx-xxxx"   required /></li>
+	<li>Pin Number:<input type="text" name="ccv" required /></li>
+	<br><br>
+	</ul>
+	<input type="submit" value="Place Order">
+	<br><br>
+	</form>
+	</td>
+	<td>
+	<form action="vieworder.php" method="get" enctype="text/plain">
+	 Enter Order ID : <input type="text" name="order" required><br><br>
+	<input type="submit" value="View Order" onsubmit='valid()' />
+	</form>
+	</td>
+</tr>
+
+</table><br><br><br><br>
+
+	<div>
+	<footer>
+	<font color=white>
+	<font size=3><b><u>JOIN US</font></u></b><br>
+	
+	<a href="https://plus.google.com/communities/107095681279963536312">
+<img src="Images/G+.png" width="23" height="23" /> </a>
+	<a href="https://www.facebook.com/Unofficial-Skyrim-589599051204502/timeline?ref=page_internal&__mref=message_bubble"><img src="Images/facebook.png" width="23" height="23" /> </a>
+	<a href="https://twitter.com/Skyrim_movies"><img src="Images/twitter.png" width="23" height="23" /> </a>
+	<center>
+	<font color=#FFFFFF>Edited by:</font><a href="CV-Thushini.html"><font color=#3299CC>Thushini</a>
+	<hr color=#32CD99>
+	<center><font size=3 >
+	<b>
+	<a href="home.html"><font color=#00009C>HOME |</a>&nbsp
+	<a href="Movies.php"><font color=#00009C>MOVIES &nbsp|</a>&nbsp
+	<a href="ContactUs.html"><font color=#00009C>CONTACT US &nbsp |</a>&nbsp
+	<a href="AboutUs.html"><font color=#00009C>ABOUT US &nbsp|</a>&nbsp
+	<a href="Quiz.html"><font color=#00009C>QUIZ &nbsp|</a>&nbsp
+	<a href="weeklypoll1.php"><font color=#00009C>WEEKLY POLL &nbsp|</a>&nbsp
+	<a href="Testimonial.php"><font color=#00009C>TESTIMONIAL&nbsp|</a>&nbsp
+	<a href="Register.html"><font color=#00009C>REGISTER &nbsp|</a>&nbsp</b><br>
+	<img src="images/Copyright.png" width="15" height="15" /> </a> <font color=#000000><font color=#FFFFFF>2016 Copyright SKYRIM.All Rights Reserved</font>
+	
+	</script>
+	</footer>
+	</div>
+</body>
+</html>
