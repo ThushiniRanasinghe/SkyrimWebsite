@@ -1,0 +1,6 @@
+img#transparent{
+ 	opacity:0.4;  /*to make the image transparent*/
+	filter: alpha (opacity=40);
+}
+
+	

@@ -1,0 +1,31 @@
+ul#css3menu2 {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 0;
+    width: 200px;
+     height: 325px;
+    background-color: #42426f;
+    border:5px solid #32CD99;    
+    position: fixed;
+    height: 325px;
+    overflow: auto;
+}
+
+
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #9F9F9F;
+    color: white;
+}
+.active {
+    background-color: #FF7F00;
+    color: white;
+}
