@@ -1,0 +1,74 @@
+
+.layout {
+	height: 100%;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.gap {
+}
+.baner-abt {
+	height: 400px;
+	width: 1200px;
+}
+
+.futter {
+	height: 50px;
+	width: 1500px;
+	align: center;
+	background-repeat: no-repeat;
+}
+
+.buttn2 {
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 200px;
+}
+.gap {
+	width: 800px;
+}
+.gap5 {
+	width: 800px;
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	text-transform: none;
+	font-variant: normal;
+	font-weight: lighter;
+	font-size: 14px;
+	vertical-align: super;
+	text-align: center;
+	white-space: normal;
+}
+.gap6 {
+	width: 400px;
+	height: 400px;
+}
+
+body {
+	background-color: #FFFFFF;
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-position: center center;
+	background-image: url(../images/1.jpg);
+}
+.logo {
+	height: 100px;
+	width: 300px;
+	background-repeat: no-repeat;
+}
+.buttns {
+	background-repeat: no-repeat;
+	height: 150px;
+	width: 150px;
+}
+.banner {
+	background-repeat: no-repeat;
+	height: 520px;
+	width: 800px;
+	font-size: 18px;
+}
+.gap2 {
+	height: 50px;
+	width: 200px;
+}
+
